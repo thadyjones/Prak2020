@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find tams_turtlebot_bringup)/launch/tams_turtlebot.launch">
+	</include>
+	<include file="$(find tams_turtlebot_navigation)/launch/navigation.launch">
+		<arg name="map" value="$(find obstacle_detect)/maps/labor.yaml" />
+	</include>
+
+</launch>
+
