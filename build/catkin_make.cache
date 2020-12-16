@@ -1,2 +1,0 @@
-nikolaus:obstacle_detect
--DCATKIN_DEVEL_PREFIX=/informatik1/students/home/9reinert/pc20_ws/devel -DCMAKE_INSTALL_PREFIX=/informatik1/students/home/9reinert/pc20_ws/install -G Unix Makefiles
